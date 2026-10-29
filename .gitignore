@@ -1,0 +1,17 @@
+# Data is not redistributed: download it from HistData.com (see data/README.md)
+data/*
+!data/README.md
+
+# Large model outputs
+results/*.npy
+*.keras
+*.h5
+
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+.DS_Store
+
+# Raw training logs (TensorFlow output)
+results/*.log
